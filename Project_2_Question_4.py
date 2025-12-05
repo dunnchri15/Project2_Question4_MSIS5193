@@ -5,7 +5,7 @@ import docx
 
 GENAI_API_KEY = st.secrets["GEMINI_API_KEY"]   
 genai.configure(api_key=GENAI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.title("Import to AI - Closed Source Version (Gemini)")
 
